@@ -1,0 +1,62 @@
+.ChatWindow {
+    width: 1190px;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px auto;
+    box-sizing: border-box;
+  }
+  
+  .ChatMessages {
+    flex: 1;
+    overflow-y: auto;
+    height: calc(100% - 50px);
+  }
+  
+  .ChatMessage {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    text-align: right;
+  }
+  
+  .ChatMessageSender {
+    text-align: right;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+  }
+  
+  .ChatMessageTimestamp {
+    font-size: 0.8em;
+    margin-top: 5px;
+  }
+  .ChatMessage--bot {
+    text-align: left;
+  }
+  
+  .ChatMessage--bot .ChatMessageSender {
+    text-align: left;
+  }
+  
+  .ChatMessage--bot .ChatMessageTimestamp {
+    text-align: left;
+  }
+  
+  .ChatInput {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .ChatInputField {
+    width: 1115px;
+  }
+  
+  .ChatSendButton {
+    flex-shrink: 0;
+  }

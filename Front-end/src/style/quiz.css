@@ -1,0 +1,38 @@
+.delete{
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.attempt{
+  width: 60%;
+  margin: 30px auto;
+}
+.attempt-title{
+  color: rgb(198, 4, 4);
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.attempt .ant-col label{
+  font-size: 25px!important;
+  font-weight: bold;
+}
+.attempt .ant-space-item label{
+  font-size: 16px!important;
+  font-weight: unset;
+}
+.link a{
+  text-decoration: none;
+}
+.quiz{
+  width: 70%;
+  margin: 30px auto;
+  overflow-y: scroll;
+  height: 80vh;
+}
+.delete-option, .add-option{
+  color: red;
+  position: relative;
+  top: 5px;
+  cursor: pointer;
+}
