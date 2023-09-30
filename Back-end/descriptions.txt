@@ -1,0 +1,4 @@
+We will put all the back-end codes in this file.
+And we decided to use Python to write the back-end code, and use the Django framework.
+The database will be Mysql or MSsql.
+and our sever will run in CES machines.
